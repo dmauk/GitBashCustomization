@@ -1,0 +1,9 @@
+git config --global core.editor "'C:/Program Files/Sublime Text 3/sublime_text.exe' -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+git config --global user.name "NAME"
+git config --global user.email "EMAIL"
+
+
+Add to .bash_profile:
+alias subl="C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
